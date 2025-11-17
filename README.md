@@ -6,68 +6,36 @@ Game Description:
  A simple object-oriented Labyrinth Game where the player moves through a dynamically generated maze, collects treasures, and tries to reach the exit with the highest score. The game includes user login, a graphical interface, and MySQL-based save/load functionality.
 
  Features: 
-
 User login & registration
-
 Dynamic maze generation
-
 Player movement in four directions
-
 Treasure collection that increases score
-
 Win by reaching the exit
-
 Lose by hitting a wall
-
 Save & load game state using MySQL
-
 Simple and intuitive GUI
 
-  Main Components:
+Main Components:
 Player
-
 Position in the maze
-
 Score and collected treasures
-
 Movement and exit detection
 
-Maze
-
+Maze:
 Dynamic grid with walls, paths, treasures, and exit
-
 Functions to check walls, treasures, and exit location
-
 GameController
-
 Starts a new game
-
 Manages each turn
-
 Ends the game and updates score
-
 Saves and loads the game from the database
 
 GUI:
-
 Visual display of the maze
-
 Movement buttons (⬆️⬇️⬅️➡️)
-
 Player info panel (position, score, treasures)
-
 Save, Load, and Exit buttons
-
  Database (MySQL)
-
-Used to store:
-
-User accounts
-
-Game state
-
-Maze layout
-
-Treasure data
+Used to store:User accounts,Game state.Maze layout,Treasure data
 
  
